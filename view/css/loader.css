@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  cursor: url("/view/assets/cursor/cursor.png"), auto;
+  cursor: url("/my-basic-site/view/assets/cursor/cursor.png"), auto;
 }
 .loader {
   border: 16px solid #f3f3f3;
