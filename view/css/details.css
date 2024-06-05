@@ -2,7 +2,7 @@ body {
   color: #1a202c;
   font-family: sans-serif;
   margin: 0;
-  cursor: url("/view/assets/cursor/cursor.png"), auto;
+  cursor: url("/my-basic-site/view/assets/cursor/cursor.png"), auto;
 }
 
 .bg-main {
