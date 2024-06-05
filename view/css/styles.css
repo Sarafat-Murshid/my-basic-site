@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  cursor: url("/view/assets/cursor/cursor.png"), auto;
+  cursor: url("/my-basic-site/view/assets/cursor/cursor.png"), auto;
 }
 
 .bg-main {
