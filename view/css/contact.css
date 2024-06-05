@@ -173,7 +173,7 @@ button:hover {
 
 .nav-link:hover {
   color: #27272a;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
 }
 
 .navbar {
@@ -212,13 +212,13 @@ button:hover {
   display: flex;
   align-items: center;
   padding: 0.5rem;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
 }
 
 .logo {
   max-height: 50px;
   width: auto;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
 }
 
 @media (max-width: 768px) {
