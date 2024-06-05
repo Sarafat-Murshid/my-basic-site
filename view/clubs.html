@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Activities</title>
+    <link rel="stylesheet" href="./css/details.css" />
+    <script src="/model/scripts.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/model/expandCard.js" defer></script>
+  </head>
+  <body class="bg-main min-h-screen flex-center">
+    <nav class="navbar">
+      <a href="homepage.html" class="logo-container">
+        <img src="assets/Logo.png" alt="logo" class="logo" />
+      </a>
+      <div class="nav-links">
+        <a href="student-activity.html" class="nav-link">Student Activities</a>
+        <a href="clubs.html" class="nav-link">Clubs</a>
+        <a href="Facilities.html" class="nav-link">Facilities</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="grid">
+        <div class="card" onclick="expandCard(this)">
+          <img
+            src="assets/clubs/club1.jpg"
+            alt="Student Activities"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Robotics Club</h2>
+            <p class="card-location">
+              Location: Engineering Building, Room 203
+            </p>
+            <p class="card-description">
+              Description: Dive into the world of robotics! Join our club to
+              learn about basic robot design, programming, and control systems.
+              No prior experience required!
+            </p>
+          </div>
+        </div>
+        <div class="card" onclick="expandCard(this)">
+          <img
+            src="assets/clubs/club2.jpg"
+            alt="Student Activities"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Photography Club</h2>
+            <p class="card-location">Location: Fine Arts Gallery</p>
+            <p class="card-description">
+              Description: Immerse yourself in captivating visual stories!
+              Explore stunning photographs captured by our talented members
+              showcasing various themes and styles.
+            </p>
+          </div>
+        </div>
+        <div class="card" onclick="expandCard(this)">
+          <img
+            src="assets/clubs/club3.jpg"
+            alt="Student Activities"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Music Club</h2>
+            <p class="card-location">Location: Room 502</p>
+            <p class="card-description">
+              Description: Calling all musicians, singers, and music
+              enthusiasts! Whether you're a seasoned performer or just starting
+              out, this is your chance to showcase your talent, express
+              yourself, and connect with fellow music lovers. From soulful
+              ballads to energetic rock anthems, all genres and styles are
+              welcome!
+            </p>
+          </div>
+        </div>
+        <div class="card" onclick="expandCard(this)">
+          <img
+            src="assets/clubs/club4.jpg"
+            alt="Student Activities"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Sports Club</h2>
+            <p class="card-location">Location: Auditorium</p>
+            <p class="card-description">
+              Description: Get ready to kick off the excitement at our Sports
+              Club! Join us for friendly competitions and camaraderie on the
+              field. Whether you're a seasoned player or new to the game, this
+              club is open to all skill levels. Form your own team or join one
+              on-site, and compete for glory in thrilling sports, fun
+              challenges, and memorable moments!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

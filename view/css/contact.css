@@ -1,0 +1,236 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #1a202c;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  cursor: url("/view/assets/cursor/cursor.png"), auto;
+}
+
+.bg-main {
+  background-color: #2c2c32;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.bg-main.dark {
+  background-color: #27272a;
+  color: #d1d5db;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark .bg-zinc-900 {
+  background-color: #1a202c;
+}
+
+.dark .text-zinc-100 {
+  color: #f7fafc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1.5rem;
+  padding: 1rem;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  background: #374151;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 0px solid #333;
+  border-radius: 10px;
+  transform-origin: center;
+  animation: rotateIn 1s forwards;
+}
+
+@keyframes rotateIn {
+  0% {
+    transform: rotateY(90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+textarea {
+  resize: vertical;
+  color: #000;
+  width: 100%;
+  padding-left: 1ch;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea::placeholder {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  cursor: url("/view/assets/cursor/hand-cursor.png"), auto;
+}
+
+@media (min-width: 600px) {
+  .grid {
+    padding: 20px;
+  }
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+  }
+}
+
+.nav-link {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.5s linear;
+}
+
+.nav-link:hover {
+  color: #27272a;
+  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+}
+
+.navbar {
+  background: rgba(55, 54, 96, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  width: 100%;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+  }
+  .logo {
+    max-height: auto;
+  }
+}
+
+.navbar.dark {
+  background-color: #27272a;
+  color: #d1d5db;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+}
+
+.logo {
+  max-height: 50px;
+  width: auto;
+  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    max-height: 100px;
+    width: auto;
+  }
+}
+
+.error-message {
+  color: #18cdca;
+  font-size: 16px;
+  display: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}

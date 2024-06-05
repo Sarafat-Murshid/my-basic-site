@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Activities</title>
+    <link rel="stylesheet" href="./css/details.css" />
+    <script src="/model/scripts.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/model/expandCard.js" defer></script>
+  </head>
+  <body class="bg-main min-h-screen flex-center">
+    <nav class="navbar">
+      <a href="homepage.html" class="logo-container">
+        <img src="assets/Logo.png" alt="logo" class="logo" />
+      </a>
+      <div class="nav-links">
+        <a href="student-activity.html" class="nav-link">Student Activities</a>
+        <a href="clubs.html" class="nav-link">Clubs</a>
+        <a href="Facilities.html" class="nav-link">Facilities</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="grid">
+        <div class="card" onclick="expandCard(this)">
+          <img
+            src="assets/activity/activity1.jpg"
+            alt="Student Activities"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Basketball Game</h2>
+            <p class="card-date">Date: 10/15/2022</p>
+            <p class="card-time">Time: 3:00 PM</p>
+            <p class="card-location">Location: Gymnasium</p>
+            <p class="card-description">
+              Description: Join us for an exciting basketball game!
+            </p>
+            <p class="card-organizer">Organizer: Student Council</p>
+          </div>
+        </div>
+        <div class="card" onclick="expandCard(this)">
+          <img
+            src="assets/activity/activity2.jpg"
+            alt="Student Activities"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Art Exhibition</h2>
+            <p class="card-date">Date: 11/05/2022</p>
+            <p class="card-time">Time: 5:00 PM</p>
+            <p class="card-location">Location: Art Gallery</p>
+            <p class="card-description">
+              Description: Explore amazing artworks by talented students!
+            </p>
+            <p class="card-organizer">Organizer: Art Club</p>
+          </div>
+        </div>
+        <div class="card" onclick="expandCard(this)">
+          <img
+            src="assets/activity/activity3.jpg"
+            alt="Student Activities"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Music Concert</h2>
+            <p class="card-date">Date: 12/10/2022</p>
+            <p class="card-time">Time: 7:00 PM</p>
+            <p class="card-location">Location: Auditorium</p>
+            <p class="card-description">
+              Description: Enjoy a night of beautiful music performances!
+            </p>
+            <p class="card-organizer">Organizer: Music Club</p>
+          </div>
+        </div>
+        <div class="card" onclick="expandCard(this)">
+          <img
+            src="assets/activity/activity4.jpg"
+            alt="Student Activities"
+            class="card-img"
+          />
+          <div class="card-content">
+            <h2 class="card-title">Programming Contest</h2>
+            <p class="card-date">Date: 09/15/2023</p>
+            <p class="card-time">Time: 9:00 AM - 5:00 PM</p>
+            <p class="card-location">
+              Location: Computer Science Building, Room 301
+            </p>
+            <p class="card-description">
+              Description: Join our annual programming contest and compete for
+              exciting prizes!
+            </p>
+            <p class="card-organizer">Organizer: Computer Science Club</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
