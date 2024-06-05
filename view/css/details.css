@@ -66,7 +66,7 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
   transition: transform 0.3s;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
   overflow: hidden;
   opacity: 0;
   transform: translateY(20px);
@@ -174,7 +174,7 @@ body {
 
 .nav-link:hover {
   color: #27272a;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
 }
 
 .navbar {
@@ -213,13 +213,13 @@ body {
   display: flex;
   align-items: center;
   padding: 0.5rem;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
 }
 
 .logo {
   max-height: 50px;
   width: auto;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
 }
 
 @media (max-width: 768px) {
@@ -285,7 +285,7 @@ body {
   color: #ffffff;
   border: none;
   padding: 0.25rem 0.5rem;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
   font-size: 1rem;
   border-radius: 0.25rem;
   transition: background-color 0.3s;
