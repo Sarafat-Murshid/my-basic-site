@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  cursor: url("/view/assets/cursor/cursor.png"), auto;
+  cursor: url("/my-basic-site/view/assets/cursor/cursor.png"), auto;
 }
 
 .bg-main {
