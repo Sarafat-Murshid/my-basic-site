@@ -135,13 +135,13 @@ button {
   border-radius: 5px;
   color: #fff;
   font-size: 16px;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), pointer;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), pointer;
   transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #0056b3;
-  cursor: url("/view/assets/cursor/hand-cursor.png"), auto;
+  cursor: url("/my-basic-site/view/assets/cursor/hand-cursor.png"), auto;
 }
 
 @media (min-width: 600px) {
